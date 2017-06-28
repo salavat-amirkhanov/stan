@@ -42,19 +42,19 @@ namespace stan {
           fatal_(fatal) { }
 
       void debug(const std::string& message) {
-        debug_ << message << std::endl;
+//        debug_ << message << std::endl;
       }
 
       void debug(const std::stringstream& message) {
-        debug_ << message.str() << std::endl;
+//        debug_ << message.str() << std::endl;
       }
 
       void info(const std::string& message) {
-        info_ << message << std::endl;
+//        info_ << message << std::endl;
       }
 
       void info(const std::stringstream& message) {
-        info_ << message.str() << std::endl;
+//        info_ << message.str() << std::endl;
       }
 
       void warn(const std::string& message) {
